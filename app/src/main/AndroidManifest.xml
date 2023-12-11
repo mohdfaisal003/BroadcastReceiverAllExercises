@@ -29,6 +29,12 @@
 
         <activity android:name="com.mohd.androidweb.br.background.ReminderActivity"
             android:exported="false"/>
+
+        <receiver
+            android:name="com.mohd.androidweb.br.background.ReminderReceiver"
+            android:enabled="true"
+            android:exported="false" />
+
     </application>
 
 </manifest>
