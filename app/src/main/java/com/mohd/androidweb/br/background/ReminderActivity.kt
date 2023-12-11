@@ -24,6 +24,7 @@ class ReminderActivity : AppCompatActivity() {
         binding = ActivityReminderBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+
         binding.startReceiverBtn.setOnClickListener {
             when {
                 ContextCompat.checkSelfPermission(
